@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #fbc4ab;
+  padding: 0;
+  margin: 0;
+}
+
+#nav {
+  width: 100%;
+  height: 3rem;
+  background-color: #fbc4ab;
+}
+
+#nav a {
+  font-size: 100%;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+#titleBanner {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-image: none; url(https://images.unsplash.com/photo-1639588473831-dd9d014646ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)   
+  background-size: cover;
+  background-position: center center;
+}
+
+#titleBanner h1 {
+  font-family: 'Playfair Display', serif;
+  color: #FFFFFF;
+  font-size: 500%;
+  top: 75px;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+#titleBanner h1.tp {
+  font-size: 400%;
+}
+
+#titleBanner h1.pink {
+  color: #ff0a54;
+}
+
+#titleBanner h3 {
+  color: #FFFFFF;
+  font-size: 150%;
+  top: 75px;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  position: relative;
+  text-align: center;
+  line-height: 100%;
+}
+
+#recipeColumns {
+  padding: 2vh;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6vh;
+  background-color: #fbc4ab;
+}
+
+#recipeColumns div#ingredients {
+  flex-basis: 28%;
+}
+
+#recipeColumns div#equipment {
+  flex-basis: 20%;
+}
+
+#recipeColumns div#directions {
+  flex-basis: 50%;
+}
+
+#recipeColumns ul,
+ol {
+  padding-left: 1.1em;
+}
+
+ul,
+ol {
+  display: block;
+}
+
+#recipeColumns h4 {
+  color: #ff0a54;
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.peach {
+  width: 60vh;
+  height: 50vh;
+  align: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#footer,
+#footer a {
+  text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+  #recipeColumns {
+    padding: 1vh 2vh 2vh 2vh;
+    display: block;
+  }
+  #recipeColumns div {
+    position: relative;
+    margin: 2.5vh 0 5vh 0;
+    fontsize: 120%;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 575px) {
+  #titleBanner {
+    height: 98vh;
+  }
+  #titleBanner h1 {
+    font-size: 900%;
+    margin: 0 0 3vh 3vh;
+  }
+}

@@ -1,0 +1,16 @@
+[13-Nov-2022 06:33:11 UTC] PHP Warning:  Undefined array key "recipeID" in /home/zairemoo/public_html/tp9/recipes.php on line 85
+[13-Nov-2022 06:33:11 UTC] PHP Warning:  Undefined array key "recipeList" in /home/zairemoo/public_html/tp9/recipes.php on line 90
+[13-Nov-2022 06:33:11 UTC] PHP Warning:  Undefined array key "" in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:33:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:34:28 UTC] PHP Warning:  Undefined array key "recipeList" in /home/zairemoo/public_html/tp9/recipes.php on line 90
+[13-Nov-2022 06:34:28 UTC] PHP Warning:  Undefined array key "peachcrisps$recipeList=ingredients" in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:34:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:37:45 UTC] PHP Warning:  Undefined array key "recipeList" in /home/zairemoo/public_html/tp9/recipes.php on line 90
+[13-Nov-2022 06:37:45 UTC] PHP Warning:  Undefined array key "peachCrisps$recipeList=ingredients" in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:37:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:38:37 UTC] PHP Warning:  Undefined array key "recipeList" in /home/zairemoo/public_html/tp9/recipes.php on line 90
+[13-Nov-2022 06:38:37 UTC] PHP Warning:  Undefined array key "peachCrisps$recipeList=ingredients" in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:38:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:38:50 UTC] PHP Warning:  Undefined array key "recipeList" in /home/zairemoo/public_html/tp9/recipes.php on line 90
+[13-Nov-2022 06:38:50 UTC] PHP Warning:  Undefined array key "peachCrisps$recipeList=ingredients" in /home/zairemoo/public_html/tp9/recipes.php on line 96
+[13-Nov-2022 06:38:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/zairemoo/public_html/tp9/recipes.php on line 96
