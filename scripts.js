@@ -53,9 +53,10 @@ function loadFileInto(recipeID, listName, whereTo) {
 
 // write a generic recipe object constructor
 function Recipe(recipeTitle, recipeImageSrc, recipeContributor, recipeID) {
-	this.title = recipeTitle;
+	
+  this.title = recipeTitle;
 	this.imgSrc = recipeImageSrc;
-	this.contributor = recipeContributor;
+  this.contributor = recipeContributor;
 	this.id = recipeID;
 	
 	this.displayRecipe = function() {
@@ -63,7 +64,7 @@ function Recipe(recipeTitle, recipeImageSrc, recipeContributor, recipeID) {
 		layoutTitle = document.querySelectorAll("#titleBanner h1");
 		layoutTitle[0].innerHTML = this.title;
 		
-		layoutContributor = document.querySelectorAll("#titleBanner h4");
+		layoutContributor = document.querySelectorAll("#titleBanner h3");
 		layoutContributor[0].innerHTML = "Contributed by " + this.contributor;
 		
 		document.getElementById("titleBanner").style.backgroundImage = "url(" + this.imgSrc + ")";
@@ -98,5 +99,19 @@ FrenchToast = new Recipe(
 
 
 window.onload = function() {
-	// not needed for this assignment
-}
+
+  document.querySelector("#firstRecipe").onclick = function() {
+    PeachCrisps.displayRecipe();
+  }
+
+  document.querySelector("#secondRecipe").onclick = function() {
+    TwistyCookies.displayRecipe();
+
+    document.querySelector("#thirdRecipe").onclick = function() {
+      FrenchToast.displayRecipe();
+    }
+    
+  }
+  
+  
+} // end window.onload

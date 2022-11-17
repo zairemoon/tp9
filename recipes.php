@@ -105,3 +105,4 @@ if ($requestedOutput != null) {
 
 // output the JSON back to the AJAX request
 echo $requestedJSON;
+
